@@ -12,7 +12,7 @@ A simple and secure Python tool to hide encrypted text messages inside PNG image
 - [How to Use](#how-to-use)
 - [Key Rules](#️-key-rules)
 - [Troubleshooting](#troubleshooting)
-- [License](#license)
+
 
 ---
 
