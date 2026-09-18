@@ -18,10 +18,10 @@ A simple and secure Python tool to hide encrypted text messages inside PNG image
 
 ## Features
 
-- 🔒 Encrypts your message with AES-128 (via `cryptography`'s Fernet) before hiding it
-- 🖼️ Hides the encrypted payload inside a PNG using LSB steganography
-- 🔑 Generates a unique key per message — without it, the data can't be decrypted
-- ⚡ Works with either plain `pip` or `uv` for setup
+-  Encrypts your message with AES-128 (via `cryptography`'s Fernet) before hiding it
+-  Hides the encrypted payload inside a PNG using LSB steganography
+-  Generates a unique key per message — without it, the data can't be decrypted
+-  Works with either plain `pip` or `uv` for setup
 
 ---
 
@@ -89,7 +89,7 @@ You can set up this project using **standard Python (pip)** or **uv**.
 
 ---
 
-## ⚠️ Key Rules
+##  Key Rules
 
 - **Never convert the output image to JPG.** Only use `.png`. Lossy compression — including from formats like JPG or from sending the image over compressed chat apps (e.g., WhatsApp) — will destroy the hidden data.
 - **Don't lose the key.** The message is strongly encrypted and cannot be recovered without the generated key.
@@ -108,6 +108,3 @@ You can set up this project using **standard Python (pip)** or **uv**.
 
 ---
 
-## License
-
-Specify your project's license here (e.g., MIT, Apache 2.0).
